@@ -1,0 +1,33 @@
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+.venv/
+.venv313/
+.uv_cache/
+.pip_cache/
+
+# local git metadata (workaround for restricted .git/)
+.git/
+gitdir/
+
+# generated outputs
+output/
+generation/password_gen_tools/fulllist/
+
+# datasets / sensitive artifacts (avoid committing to VCS)
+data/
+checkpoints/
+exports/
+generated_passwords*.txt
+filtered_*.txt
+name_data.txt
+output_data.xlsx
+*.pkl
+
+# potentially sensitive personal data
+generation/password_gen_tools/teacher.csv
+
+# archives / binaries
+*.zip
